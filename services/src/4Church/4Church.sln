@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Data", "3 - Data", "{9B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{9093EBED-513A-4B1F-A183-E4FE51153455}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4Church.EBD.Domain.Test", "..\..\test\EBD\4Church.EBD.Domain.Test\4Church.EBD.Domain.Test.csproj", "{E387500D-CEB8-4289-AC85-BB3DE463600D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{C0419135-3233-4EA6-A188-901BBCE669BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0419135-3233-4EA6-A188-901BBCE669BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0419135-3233-4EA6-A188-901BBCE669BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E387500D-CEB8-4289-AC85-BB3DE463600D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E387500D-CEB8-4289-AC85-BB3DE463600D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E387500D-CEB8-4289-AC85-BB3DE463600D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E387500D-CEB8-4289-AC85-BB3DE463600D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 		{755D0C19-56FF-4AF5-A68C-F1DD4132FE6F} = {FFF02FA4-AB79-46E7-AD48-0D1ECD0885D3}
 		{9BF70EC2-37A8-42A0-A38C-4E5E10B942F1} = {FFF02FA4-AB79-46E7-AD48-0D1ECD0885D3}
 		{9093EBED-513A-4B1F-A183-E4FE51153455} = {FFF02FA4-AB79-46E7-AD48-0D1ECD0885D3}
+		{E387500D-CEB8-4289-AC85-BB3DE463600D} = {755D0C19-56FF-4AF5-A68C-F1DD4132FE6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4189A483-DF01-4FEA-A5D4-B43BC1B67EB6}
