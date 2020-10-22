@@ -21,5 +21,5 @@ jobs:
       run: dotnet restore ./services/src/4Church
     - name: Build
       run: dotnet build ./services/src/4Church --configuration Release --no-restore
-    #- name: Test
-    #  run: dotnet test --project ~/services/tests/4Church --no-restore --verbosity normal
+    - name: Test
+      run: dotnet test ./services/tests/4Church --no-restore --verbosity normal
