@@ -18,7 +18,7 @@ jobs:
       with:
         dotnet-version: 3.1.301
     - name: Install dependencies
-      run: dotnet restore
+      run: dotnet restore ./services/src/4Church
     - name: Build
       run: dotnet build ./services/src/4Church --configuration Release --no-restore
     #- name: Test
